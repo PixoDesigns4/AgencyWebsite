@@ -1,0 +1,38 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Static Admin</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/lib/auth.js"></script>
+<script defer src="assets/js/lib/github.js"></script>
+<script defer src="assets/js/lib/ui.js"></script>
+
+<script defer src="assets/js/pages/media.js"></script>
+</head><body>
+  
+<div class="topbar">
+  <div class="inner">
+    <div class="brand"><span class="dot"></span>Static Admin</div>
+    <div class="nav"><a href="index.html" class="">Dashboard</a>
+<a href="projects.html" class="">Projects</a>
+<a href="blog.html" class="">Blog</a>
+<a href="media.html" class="active">Media</a>
+<a href="settings.html" class="">Settings</a></div>
+    <div class="row">
+      <span class="badge" id="gh-repo-label">Not connected</span>
+      <button class="btn" id="logout-btn">Logout</button>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="card">
+      <h2>Media uploads</h2>
+      <p class="small">Uploads go into <code>&lt;dataPath&gt;/media/</code> in your repo.</p>
+      <div class="grid">
+        <div class="col-12"><input type="file" id="files" multiple></div>
+        <div class="col-12"><button class="btn primary" id="upload">Upload selected</button></div>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+</body></html>

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "title": "Coursemate \u2013 Learning App",
+      "category": "uiux",
+      "slug": "coursemate",
+      "thumb": "/img/works/6/3.jpg",
+      "url": "/Coursemate.html"
+    },
+    {
+      "title": "Bridgewe \u2013 Finance App",
+      "category": "uiux",
+      "slug": "bridgewe",
+      "thumb": "/img/works/2/1.jpg",
+      "url": "/Bridgewe.html"
+    }
+  ]
+}
